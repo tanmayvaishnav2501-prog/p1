@@ -1,0 +1,155 @@
+```css
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+/* Header */
+center {
+    background: linear-gradient(135deg, #102a43, #176b87);
+    color: white;
+    padding: 30px 15px;
+}
+
+center h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+center p {
+    color: #d9f3ff;
+    font-size: 15px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #e3eaf1;
+    margin: 18px 0;
+}
+
+/* Navigation */
+center a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 8px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+center a:hover {
+    background: #ffffff;
+    color: #176b87;
+    transform: translateY(-2px);
+}
+
+/* Main Content */
+body > h2,
+body > p,
+body > ul,
+body > ol {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+body > h2 {
+    color: #176b87;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 5px solid #f4b942;
+}
+
+body > p {
+    font-size: 16px;
+    color: #536575;
+    padding: 0 15px;
+}
+
+/* Courses and News */
+body > ul,
+body > ol {
+    background: white;
+    margin-top: 15px;
+    padding: 20px 20px 20px 45px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(25, 50, 75, 0.07);
+}
+
+body > ul li,
+body > ol li {
+    padding: 9px;
+    margin: 5px 0;
+    border-bottom: 1px solid #edf0f4;
+    transition: 0.25s;
+}
+
+body > ul li:hover,
+body > ol li:hover {
+    background: #eaf6fb;
+    padding-left: 18px;
+    color: #176b87;
+}
+
+/* Footer */
+body > center:last-of-type {
+    margin-top: 40px;
+    padding: 20px;
+    background: #102a43;
+}
+
+body > center:last-of-type p {
+    color: white;
+    font-size: 13px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    center h1 {
+        font-size: 25px;
+    }
+
+    center a {
+        margin: 3px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    body > h2 {
+        font-size: 21px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    body > p {
+        font-size: 14px;
+    }
+
+    body > ul,
+    body > ol {
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-left: 35px;
+    }
+}
+```
